@@ -213,7 +213,7 @@ public class Mainpage extends javax.swing.JFrame {
                     .addGroup(purchaserpanelLayout.createSequentialGroup()
                         .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGap(0, 164, Short.MAX_VALUE)
                                 .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
                                         .addComponent(purname_label)
@@ -256,20 +256,17 @@ public class Mainpage extends javax.swing.JFrame {
                                         .addComponent(purunits_choice, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(48, 48, 48)
                                 .addComponent(purquan_label)))
-                        .addGap(7, 7, 7))
-                    .addGroup(purchaserpanelLayout.createSequentialGroup()
+                        .addGap(8, 8, 8))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(cgst_label)
+                        .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cgst_label)
+                            .addComponent(sgst_label))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(cgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(23, 23, 23))
-                    .addGroup(purchaserpanelLayout.createSequentialGroup()
-                        .addGap(534, 534, 534)
-                        .addComponent(sgst_label)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(sgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 24, Short.MAX_VALUE)))
-                .addGap(1, 1, 1)
+                        .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(sgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)))
                 .addComponent(purquan_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(121, 121, 121))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
@@ -283,21 +280,20 @@ public class Mainpage extends javax.swing.JFrame {
                         .addComponent(acname_text, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(152, 152, 152))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
-                        .addComponent(button_submit, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
                         .addComponent(purpro_text, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(158, 158, 158)
                         .addComponent(purunit_text, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(89, 89, 89)
                         .addComponent(purquan_text, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(138, 138, 138))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanelLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(purchaserpanelLayout.createSequentialGroup()
+                .addGap(358, 358, 358)
                 .addComponent(gstamount_label)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(gstamount_text, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(245, 245, 245))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(button_submit, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27))
         );
         purchaserpanelLayout.setVerticalGroup(
             purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -331,33 +327,31 @@ public class Mainpage extends javax.swing.JFrame {
                     .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(purquan_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(purunit_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
                 .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(puramt_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(puramt_label))
                 .addGap(31, 31, 31)
-                .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(purchaserpanelLayout.createSequentialGroup()
-                        .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(intrastate_rbutton)
-                            .addComponent(interstate_rbutton)
-                            .addComponent(manual_rbutton))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(gstmanual_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(32, 32, 32))
-                    .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(sgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(sgst_label)))
                 .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cgst_label)
-                    .addComponent(cgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(27, 27, 27)
+                    .addComponent(intrastate_rbutton)
+                    .addComponent(interstate_rbutton)
+                    .addComponent(manual_rbutton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(gstmanual_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cgst_label))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(sgst_label)
+                    .addComponent(sgst_choice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(21, 21, 21)
+                .addGroup(purchaserpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gstamount_label)
                     .addComponent(gstamount_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(gstamount_label))
-                .addGap(24, 24, 24)
-                .addComponent(button_submit)
-                .addContainerGap())
+                    .addComponent(button_submit))
+                .addGap(61, 61, 61))
         );
 
         jTabbedPane1.addTab("purchase", purchaserpanel);
@@ -459,66 +453,59 @@ public class Mainpage extends javax.swing.JFrame {
             purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
                 .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
+                        .addGap(0, 135, Short.MAX_VALUE)
+                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                                        .addComponent(purname_label1)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(purname_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(87, 87, 87))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(name_label1)
-                                            .addComponent(pro_label1))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(purpro_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                                                .addComponent(purname_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(34, 34, 34)
-                                                .addComponent(gstid_label1)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(purgstid_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                                        .addGap(53, 53, 53)
-                                        .addComponent(intrastate_rbutton1)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(interstate_rbutton1)
-                                        .addGap(101, 101, 101)
-                                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(gstmanual_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(manual_rbutton1))
-                                        .addGap(19, 19, 19))))
-                            .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(purname_label1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(purname_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(87, 87, 87))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
                                 .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(name_label1)
+                                    .addComponent(pro_label1))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(purpro_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                                        .addComponent(puramt_label1)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(puramt_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(purname_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(34, 34, 34)
+                                        .addComponent(gstid_label1)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(purgstid_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
+                                .addGap(53, 53, 53)
+                                .addComponent(intrastate_rbutton1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(interstate_rbutton1)
+                                .addGap(101, 101, 101)
+                                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(gstmanual_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(manual_rbutton1)
                                     .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                                        .addComponent(purunit_label1)
+                                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(sgst_label1)
+                                            .addComponent(cgst_label1))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(purunits_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(48, 48, 48)
-                                .addComponent(purquan_label1)))
-                        .addGap(7, 7, 7))
+                                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(cgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(sgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(16, 16, 16))))
                     .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(cgst_label1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(cgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(23, 23, 23))
-                    .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                        .addGap(534, 534, 534)
-                        .addComponent(sgst_label1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(sgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 24, Short.MAX_VALUE)))
-                .addGap(1, 1, 1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(purchaserpanel1Layout.createSequentialGroup()
+                                .addComponent(puramt_label1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(puramt_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(purchaserpanel1Layout.createSequentialGroup()
+                                .addComponent(purunit_label1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(purunits_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(48, 48, 48)
+                        .addComponent(purquan_label1)))
+                .addGap(8, 8, 8)
                 .addComponent(purquan_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(121, 121, 121))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
@@ -532,21 +519,20 @@ public class Mainpage extends javax.swing.JFrame {
                         .addComponent(acname_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(152, 152, 152))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                        .addComponent(button_submit1, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
                         .addComponent(purpro_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(158, 158, 158)
                         .addComponent(purunit_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(89, 89, 89)
                         .addComponent(purquan_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(138, 138, 138))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, purchaserpanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(purchaserpanel1Layout.createSequentialGroup()
+                .addGap(348, 348, 348)
                 .addComponent(gstamount_label1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(gstamount_text1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(245, 245, 245))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(button_submit1, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19))
         );
         purchaserpanel1Layout.setVerticalGroup(
             purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -580,54 +566,52 @@ public class Mainpage extends javax.swing.JFrame {
                     .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(purquan_text1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(purunit_text1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
                 .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(puramt_text1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(puramt_label1))
                 .addGap(31, 31, 31)
-                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(purchaserpanel1Layout.createSequentialGroup()
-                        .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(intrastate_rbutton1)
-                            .addComponent(interstate_rbutton1)
-                            .addComponent(manual_rbutton1))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(gstmanual_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(32, 32, 32))
-                    .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(sgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(sgst_label1)))
                 .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cgst_label1)
-                    .addComponent(cgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(27, 27, 27)
+                    .addComponent(intrastate_rbutton1)
+                    .addComponent(interstate_rbutton1)
+                    .addComponent(manual_rbutton1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(gstmanual_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cgst_label1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sgst_label1)
+                    .addComponent(sgst_choice1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(31, 31, 31)
                 .addGroup(purchaserpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(gstamount_text1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(gstamount_label1))
-                .addGap(24, 24, 24)
-                .addComponent(button_submit1)
-                .addContainerGap())
+                    .addComponent(gstamount_label1)
+                    .addComponent(button_submit1))
+                .addGap(59, 59, 59))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 788, Short.MAX_VALUE)
+            .addGap(0, 808, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel2Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(purchaserpanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 603, Short.MAX_VALUE)
+            .addGap(0, 615, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel2Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(purchaserpanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         jTabbedPane1.addTab("sales", jPanel2);
@@ -636,7 +620,7 @@ public class Mainpage extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 788, Short.MAX_VALUE)
+            .addGap(0, 808, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -695,15 +679,15 @@ public class Mainpage extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(gstmanual_choice.getSelectedItem().equals("Intra State"))
         {
-            sgst_label.setText("SGST");
+            cgst_label.setText("CGST");
             gst(true);  
         }
         else
         {
             gst(false);
-            sgst_label.setText("IGST");
-            sgst_label.setVisible(true);
-            sgst_choice.setVisible(true);        
+            cgst_label.setText("IGST");
+            cgst_label.setVisible(true);
+            cgst_choice.setVisible(true);        
         }
     }//GEN-LAST:event_gstmanual_choiceActionPerformed
 
@@ -728,18 +712,37 @@ public class Mainpage extends javax.swing.JFrame {
 
     private void intrastate_rbutton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_intrastate_rbutton1ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showMessageDialog(new Frame(),"Inside State \n CGST=2.5% \n SGST=2.5%","Inside State",JOptionPane.INFORMATION_MESSAGE);
+        gst1(false);
+        gstmanual_choice1.setVisible(false);
     }//GEN-LAST:event_intrastate_rbutton1ActionPerformed
 
     private void interstate_rbutton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_interstate_rbutton1ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showMessageDialog(new Frame(),"Outside state \n IGST=5%","Outside State",JOptionPane.INFORMATION_MESSAGE);
+        gst1(false);
+        gstmanual_choice1.setVisible(false);
     }//GEN-LAST:event_interstate_rbutton1ActionPerformed
 
     private void manual_rbutton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manual_rbutton1ActionPerformed
         // TODO add your handling code here:
+             gstmanual_choice1.setVisible(true);
     }//GEN-LAST:event_manual_rbutton1ActionPerformed
 
     private void gstmanual_choice1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gstmanual_choice1ActionPerformed
         // TODO add your handling code here:
+        if(gstmanual_choice1.getSelectedItem().equals("Intra State"))
+        {
+            cgst_label1.setText("CGST");
+            gst1(true);  
+        }
+        else
+        {
+            gst1(false);
+            cgst_label1.setText("IGST");
+            cgst_label1.setVisible(true);
+            cgst_choice1.setVisible(true);        
+        }
     }//GEN-LAST:event_gstmanual_choice1ActionPerformed
     public void gst(boolean b)
     {
