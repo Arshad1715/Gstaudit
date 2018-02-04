@@ -34,8 +34,8 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jTabbedPane1" max="32767" attributes="0"/>
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="753" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -52,6 +52,9 @@
   </Layout>
   <SubComponents>
     <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jTabbedPane1StateChanged"/>
+      </Events>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
@@ -68,115 +71,105 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="164" max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="purname_label" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="purname_choice" min="-2" pref="155" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
                                               <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Component id="name_label" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="purname_label" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="acname_label" min="-2" max="-2" attributes="0"/>
                                                   <Component id="pro_label" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="purunit_label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="purquan_label" alignment="1" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="purpro_choice" min="-2" pref="150" max="-2" attributes="0"/>
                                                   <Group type="102" attributes="0">
-                                                      <Component id="purname_text" min="-2" pref="150" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                                      <Component id="gstid_label" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="acname_choice" pref="155" max="32767" attributes="0"/>
+                                                                  <Component id="purname_choice" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="purpro_choice" alignment="0" max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="purunits_choice" max="32767" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="purquan_choice" min="-2" pref="50" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="intrastate_rbutton" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                                      <Component id="interstate_rbutton" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="purgstid_text" min="-2" pref="141" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                              <Component id="intrastate_rbutton" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="interstate_rbutton" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="gstmanual_choice" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="manual_rbutton" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="name_label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="gstid_label" alignment="1" min="-2" max="-2" attributes="0"/>
                                               </Group>
-                                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                                           </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="purname_text" min="-2" pref="180" max="-2" attributes="0"/>
+                                          <Component id="acname_text" min="-2" pref="180" max="-2" attributes="0"/>
+                                          <Component id="purgstid_text" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                          <Component id="purpro_text" min="-2" pref="128" max="-2" attributes="0"/>
+                                          <Component id="purquan_text" min="-2" pref="40" max="-2" attributes="0"/>
+                                          <Component id="purunit_text" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" attributes="0">
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="puramt_label" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="puramt_text" min="-2" pref="119" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="puramt_label" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="puramt_text" min="-2" pref="119" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="manual_rbutton" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="gst_panel" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="102" attributes="0">
-                                              <Component id="purunit_label" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="gstamount_label" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="purunits_choice" min="-2" pref="45" max="-2" attributes="0"/>
+                                              <Component id="gstamount_text" min="-2" pref="122" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                                      <Component id="purquan_label" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <EmptySpace min="57" pref="57" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="cgst_label" min="-2" max="-2" attributes="0"/>
-                                  <Component id="sgst_label" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="sgst_choice" min="-2" max="-2" attributes="0"/>
-                                  <Component id="cgst_choice" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="button_submit" min="-2" pref="99" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="337" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Component id="purquan_choice" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="acname_label" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="acname_choice" min="-2" pref="155" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="acname_text" min="-2" pref="200" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="purpro_text" min="-2" pref="128" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
-                              <Component id="purunit_text" min="-2" pref="49" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-                              <Component id="purquan_text" min="-2" pref="40" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="358" max="-2" attributes="0"/>
-                      <Component id="gstamount_label" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="gstamount_text" min="-2" pref="122" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="button_submit" min="-2" pref="99" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -188,66 +181,74 @@
                           <Component id="acname_choice" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="acname_label" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="acname_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="purname_label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purname_choice" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="purname_text" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purgstid_text" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="gstid_label" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="name_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purname_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="purgstid_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="gstid_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="purname_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="purname_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                       <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="pro_label" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="purpro_choice" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purunit_label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purunits_choice" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purquan_label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="purquan_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purpro_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="purunit_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purunit_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purunits_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="purquan_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purquan_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="purquan_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="purpro_text" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="purquan_text" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purunit_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="puramt_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="puramt_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="intrastate_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="interstate_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="manual_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
+                          <Component id="gst_panel" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="78" max="32767" attributes="0"/>
+                      <EmptySpace pref="98" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="puramt_text" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="puramt_label" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="intrastate_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="interstate_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="manual_rbutton" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="gstmanual_choice" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="cgst_choice" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="cgst_label" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="sgst_label" min="-2" max="-2" attributes="0"/>
-                          <Component id="sgst_choice" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="gstamount_label" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="gstamount_text" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="button_submit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gstamount_label" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="button_submit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -298,7 +299,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="name_label">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Name:"/>
+                <Property name="text" type="java.lang.String" value=" Seller:"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="gstid_label">
@@ -410,53 +411,6 @@
                 <Property name="text" type="java.lang.String" value="Submit"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JComboBox" name="gstmanual_choice">
-              <Properties>
-                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="2">
-                    <StringItem index="0" value="Intra State"/>
-                    <StringItem index="1" value="Inter State"/>
-                  </StringArray>
-                </Property>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gstmanual_choiceActionPerformed"/>
-              </Events>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cgst_label">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="CGST:"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="sgst_label">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="SGST:"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JComboBox" name="cgst_choice">
-              <Properties>
-                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="4">
-                    <StringItem index="0" value="2.5"/>
-                    <StringItem index="1" value="5"/>
-                    <StringItem index="2" value="7.5"/>
-                    <StringItem index="3" value="12"/>
-                  </StringArray>
-                </Property>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JComboBox" name="sgst_choice">
-              <Properties>
-                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="4">
-                    <StringItem index="0" value="2.5"/>
-                    <StringItem index="1" value="5"/>
-                    <StringItem index="2" value="7.5"/>
-                    <StringItem index="3" value="12"/>
-                  </StringArray>
-                </Property>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JLabel" name="gstamount_label">
               <Properties>
                 <Property name="text" type="java.lang.String" value="GST Amount:"/>
@@ -467,9 +421,133 @@
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
             </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Account:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Product:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Units:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quantity:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="gst_panel">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="27" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="gstmanual_choice" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="sgst_label" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cgst_label" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cgst_choice" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sgst_choice" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="gstmanual_choice" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cgst_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cgst_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="sgst_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sgst_choice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="cgst_choice">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="2.5"/>
+                        <StringItem index="1" value="5"/>
+                        <StringItem index="2" value="7.5"/>
+                        <StringItem index="3" value="12"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="cgst_label">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CGST:"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="gstmanual_choice">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="true"/>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="2">
+                        <StringItem index="0" value="Intra State"/>
+                        <StringItem index="1" value="Inter State"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gstmanual_choiceActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="sgst_label">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="SGST:"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="sgst_choice">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="2.5"/>
+                        <StringItem index="1" value="5"/>
+                        <StringItem index="2" value="7.5"/>
+                        <StringItem index="3" value="12"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel2">
+        <Container class="javax.swing.JPanel" name="salespanel">
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="salespanelFocusGained"/>
+          </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="sales">
@@ -481,25 +559,19 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="808" max="32767" attributes="0"/>
-                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="purchaserpanel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="purchaserpanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="615" max="32767" attributes="0"/>
-                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="purchaserpanel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="purchaserpanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -511,109 +583,105 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="0" pref="135" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="purname_label1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="purname_choice1" min="-2" pref="155" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="name_label1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="pro_label1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="purpro_choice1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="purname_text1" min="-2" pref="150" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                                  <Component id="gstid_label1" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="purgstid_text1" min="-2" pref="141" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                          <Component id="intrastate_rbutton1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="interstate_rbutton1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="gstmanual_choice1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="manual_rbutton1" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="sgst_label1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="cgst_label1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="purname_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="acname_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="pro_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="purunit_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="purquan_label1" alignment="1" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="cgst_choice1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="sgst_choice1" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                      <Component id="acname_choice1" alignment="0" pref="155" max="32767" attributes="0"/>
+                                                                      <Component id="purname_choice1" alignment="0" max="32767" attributes="0"/>
+                                                                      <Component id="purpro_choice1" alignment="0" max="32767" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="purunits_choice1" max="32767" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Component id="purquan_choice1" min="-2" pref="50" max="-2" attributes="0"/>
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="intrastate_rbutton1" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                                          <Component id="interstate_rbutton1" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="name_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="gstid_label1" alignment="1" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
-                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="purname_text1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="acname_text1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="purgstid_text1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="purpro_text1" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                              <Component id="purquan_text1" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <Component id="purunit_text1" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="puramt_label1" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="puramt_text1" min="-2" pref="119" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="manual_rbutton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="gst_panel1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                                  <Component id="gstamount_label1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="gstamount_text1" min="-2" pref="122" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                   </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="puramt_label1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="puramt_text1" min="-2" pref="119" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="purunit_label1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="purunits_choice1" min="-2" pref="45" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="purquan_label1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                          <Component id="purquan_choice1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="acname_label1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="acname_choice1" min="-2" pref="155" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="acname_text1" min="-2" pref="200" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="purpro_text1" min="-2" pref="128" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
-                                  <Component id="purunit_text1" min="-2" pref="49" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-                                  <Component id="purquan_text1" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="button_submit1" min="-2" pref="99" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="337" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="348" max="-2" attributes="0"/>
-                          <Component id="gstamount_label1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="gstamount_text1" min="-2" pref="122" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button_submit1" min="-2" pref="99" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -625,66 +693,74 @@
                               <Component id="acname_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="acname_label1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="acname_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="purname_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purname_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="purname_text1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purgstid_text1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="gstid_label1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="name_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purname_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="purgstid_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gstid_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="purname_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="purname_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                           <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="pro_label1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="purpro_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purunit_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purunits_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purquan_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="purquan_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purpro_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="purunit_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purunit_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purunits_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="purquan_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purquan_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="purquan_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="purpro_text1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="purquan_text1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="purunit_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="puramt_text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="puramt_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="intrastate_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="interstate_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="manual_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                              <Component id="gst_panel1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="65" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="puramt_text1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="puramt_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="intrastate_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="interstate_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="manual_rbutton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="gstmanual_choice1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cgst_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cgst_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="sgst_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="sgst_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace pref="76" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="gstamount_text1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="gstamount_label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="button_submit1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="button_submit1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -735,7 +811,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="name_label1">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Name:"/>
+                    <Property name="text" type="java.lang.String" value=" Seller:"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="gstid_label1">
@@ -847,53 +923,6 @@
                     <Property name="text" type="java.lang.String" value="Submit"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="gstmanual_choice1">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="2">
-                        <StringItem index="0" value="Intra State"/>
-                        <StringItem index="1" value="Inter State"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gstmanual_choice1ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JLabel" name="cgst_label1">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="CGST:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="sgst_label1">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="SGST:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="cgst_choice1">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="4">
-                        <StringItem index="0" value="2.5"/>
-                        <StringItem index="1" value="5"/>
-                        <StringItem index="2" value="7.5"/>
-                        <StringItem index="3" value="12"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="sgst_choice1">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="4">
-                        <StringItem index="0" value="2.5"/>
-                        <StringItem index="1" value="5"/>
-                        <StringItem index="2" value="7.5"/>
-                        <StringItem index="3" value="12"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                </Component>
                 <Component class="javax.swing.JLabel" name="gstamount_label1">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="GST Amount:"/>
@@ -904,6 +933,127 @@
                     <Property name="editable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Account:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Product:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Units:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quantity:"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="gst_panel1">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="27" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="gstmanual_choice1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="sgst_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cgst_label1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="cgst_choice1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sgst_choice1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="gstmanual_choice1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cgst_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cgst_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sgst_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sgst_choice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JComboBox" name="cgst_choice1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="2.5"/>
+                            <StringItem index="1" value="5"/>
+                            <StringItem index="2" value="7.5"/>
+                            <StringItem index="3" value="12"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cgst_label1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CGST:"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="gstmanual_choice1">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="true"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="2">
+                            <StringItem index="0" value="Intra State"/>
+                            <StringItem index="1" value="Inter State"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gstmanual_choice1ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="sgst_label1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="SGST:"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="sgst_choice1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="2.5"/>
+                            <StringItem index="1" value="5"/>
+                            <StringItem index="2" value="7.5"/>
+                            <StringItem index="3" value="12"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>
@@ -920,12 +1070,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="808" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="738" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="603" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="625" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
